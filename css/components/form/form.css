@@ -1,0 +1,32 @@
+.form {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  align-items: center;
+}
+
+.label {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-500);
+  font-weight: bold;
+}
+
+.label .textarea {
+  display: block;
+  width: 90vw;
+}
+
+.button--submit {
+  background: var(--secondary);
+  color: var(--white);
+  border: none;
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+}
+
+.button--submit:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
